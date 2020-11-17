@@ -14,7 +14,7 @@ void ExtractGPUAndCPUList(std::vector<int> &num_gpu, std::vector<int> &cores, st
 			temp += gpu_list[i];
 			i++;
 		}
-		i++;
+		//i++;
 		num_gpu.push_back(atoi(temp.c_str()));
 	}
 
@@ -25,7 +25,7 @@ void ExtractGPUAndCPUList(std::vector<int> &num_gpu, std::vector<int> &cores, st
 			temp += core_list[i];
 			i++;
 		}
-		i++;
+		//i++;
 		cores.push_back(atoi(temp.c_str()));
 	}
 
